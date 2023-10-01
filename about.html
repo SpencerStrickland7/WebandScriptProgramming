@@ -7,27 +7,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
+    <!--Navbar-->
     <div class="header">
-        <div class="logoname">
-        <h1><span>S</span>.<span>STRICKLAND</span></h1>
+        <div class="header-left">
+            <a>S.STRICKLAND</a>
         </div>
-        <div class="navbar">
+        <div class="header-right">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="contact.html">Contact Me</a>
         </div>
-        </div>
+      </div>
 
-    <!-- About Section -->
+    <!--About-->
     <div class="section" id="about">
         <h2>About Me</h2>
-        <p>This is the about section.</p>
+    </div>
+    <div class="aboutme">
+        <p>Hello my name is Spencer Strickland I am a second year Networking and IT security student at Ontario Tech University. 
+            I am from Belleville, Ontario but went to highschool in the United States.</p> 
+    </div>
+    <div class="picturea">
+        <img src="me.jpg" alt="Picture of spencer strickland" width="500" height="500">
+    </div>
+    <div class="pictureb">
+        <img src="medog.jpg" alt="Picture of spencer strickland with dog maple" width="500" height="500">
+    </div>
+
+    <div class="aboutvid">
+    <video id="video" width="500" height="400" controls autoplay muted poster="aboutvidpic.png">
+        <source src="aboutvid.mp4" type="video/mp4">
+    </video>
+        <br>
+        <button onclick="playPause()">Play or pause the video</button>
+    <script>
+        var myVideo=document.getElementById("video");
+        function playPause()
+        {
+        if (myVideo.paused)
+        myVideo.play();
+        else myVideo.pause();
+        }
+    </script>
+    </div>
+    <div class="text">
+        <p>Here are some more pictures I have taken around Belleville</p> 
+    </div>
+    <div class="p1">
+        <img src="dam.jpg" alt="Picture of dam in snowfall" width="1440" height="810">
+    </div>
+    <div class="p2">
+        <img src="tree.jpg" alt="Picture of forrest with ice and sun" width="1440" height="810">
     </div>
     <div class="footer">
         <p>Spencer Strickland</p>
         <p>spencer.strickland@ontariotechu.net</p>
+        <p>All pictures and videos are my own</p>
     </div>
 </body>
 </html>
