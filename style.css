@@ -13,7 +13,7 @@ width: 960px;height: 600px;
 margin-left: auto;
 margin-right: auto;
 background-image: linear-gradient(#DEE0D5, pink);
-
+background-image: linear-gradient(45deg, #DEE0D5, pink);
 }
 
 .header {
