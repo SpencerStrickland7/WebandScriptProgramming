@@ -89,6 +89,7 @@ header{
 
 .logoname{
     float: left;
+    margin: 0 auto;
 }
 .navbar{
     float: right;
