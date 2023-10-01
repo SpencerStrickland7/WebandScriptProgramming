@@ -84,7 +84,7 @@ button {
     margin: 0 auto;
 }
 header{
-    background: #444;
+    background: #333;
 }
 
 .logoname{
@@ -116,9 +116,4 @@ header{
 .picture{
     text-align: center;
     position: relative;
-}
-
-.navbar{
-    font: 1em sans-serif;
-    background-color: #DEE0D5;
 }
