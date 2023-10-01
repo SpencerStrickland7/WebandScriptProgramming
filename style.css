@@ -2,7 +2,7 @@
 /* CSS Document */
 /* The body tag style applies to all elements on the page */
 body {
-background-color: rgb(255, 255, 255);
+background-color: #A7C5C5;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
@@ -12,7 +12,7 @@ margin:0px;
 width: 960px;height: 800px;
 margin-left: auto;
 margin-right: auto;
-background-color:LightSlateGrey ;
+background-color:#DEE0D5 ;
 }
 /* The right-column ID style is floated right */
 #right-column {
@@ -45,7 +45,7 @@ color: white;
 }
 /* Advanced Web design relies on class or ID styles, never tables */
 .box {
-height: 150px;
+height: 120px;
 width: 150px;float: left;
 background-color:tan;
 margin: 15px;
@@ -76,3 +76,38 @@ button {
         box-shadow: -10px -10px 5px black;
         border-radius: 5px;
         }
+
+
+.headerholder{
+    background-color: #333;
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #444;
+}
+
+.logoname{
+    float: left;
+}
+.navbar{
+    float: right;
+    padding-top: 6px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    }    
+
+ form {
+    text-align: center;
+    padding-top: 5px;
+    }
+
+.section{
+    padding-top: 90px;
+}
