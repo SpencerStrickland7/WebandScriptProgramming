@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <!-- full-size monitor style sheet-->
+        <link href="/public/content/full.css" rel="stylesheet" type="text/css" media="only screen and
+        (min-width:960px)">
+        <!-- tablet style sheet-->
+        <link href="/public/content/tablet.css" rel="stylesheet" type="text/css" media="only screen
+        and (min-width:481px) and (max-width:960px)">
+        <!-- phone style sheet-->
+        <link href="/public/content/phone.css" rel="stylesheet" type="text/css" media="only screen
+        and (max-width:480px)">
+    </head>
+<body>
+    <!--Navbar-->
+    <div class="header">
+        <div class="header-left">
+            <a>S.STRICKLAND</a>
+        </div>
+        <div class="header-right">
+            <a href="index.ejs">Home</a>
+            <a href="about.ejs">About</a>
+            <a href="projects.ejs">Projects</a>
+            <a href="contact.ejs">Contact Me</a>
+        </div>
+      </div>
+
+    <!--Contact Me-->
+    <div class="section" id="contact">
+        <h2>Contact Me</h2>
+    </div>
+    <div id="wrapper">
+        <form action=mailto:spener.strickland@ontariotechu.net ?subject=Signup! method="post" enctype="text/plain" name="form">
+            <p>
+               <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your complete name" size="40" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                 <input type="email" name="email" placeholder="Enter your email address" size="40" required>
+             </p>
+             <p>
+                <label for="comment">Message:</label><br><br>
+                 <textarea name="Comments" cols="80" rows="15"></textarea>
+             </p>
+             <input type="reset" value="Reset">
+             <input type="submit" value="Submit">
+        </form>
+        </div>
+        <div class="footer">
+            <p>Spencer Strickland</p>
+            <p>spencer.strickland@ontariotechu.net</p>
+            <p>All pictures and videos are my own</p>
+        </div>
+</body>
+</html>

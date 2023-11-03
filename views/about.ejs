@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About</title>
+        <!-- full-size monitor style sheet-->
+        <link href="/public/content/full.css" rel="stylesheet" type="text/css" media="only screen and
+        (min-width:960px)">
+        <!-- tablet style sheet-->
+        <link href="/public/content/tablet.css" rel="stylesheet" type="text/css" media="only screen
+        and (min-width:481px) and (max-width:960px)">
+        <!-- phone style sheet-->
+        <link href="/public/content/phone.css" rel="stylesheet" type="text/css" media="only screen
+        and (max-width:480px)">
+    </head>
+<body>
+    <!--Navbar-->
+    <div class="header">
+        <div class="header-left">
+            <a>S.STRICKLAND</a>
+        </div>
+        <div class="header-right">
+            <a href="index.ejs">Home</a>
+            <a href="about.ejs">About</a>
+            <a href="projects.ejs">Projects</a>
+            <a href="contact.ejs">Contact Me</a>
+        </div>
+      </div>
+
+    <!--About-->
+    <div class="section" id="about">
+        <h2>About Me</h2>
+    </div>
+    <div class="aboutme">
+        <p>Hello my name is Spencer Strickland I am a second year Networking and IT security student at Ontario Tech University. 
+            I am from Belleville, Ontario but went to highschool in the United States.</p> 
+    </div>
+    <div class="picturea">
+        <img src="/public/assets/images/me.jpg" alt="Picture of spencer strickland" width="500" height="500">
+    </div>
+    <div class="pictureb">
+        <img src="/public/assets/images/medog.jpg" alt="Picture of spencer strickland with dog maple" width="500" height="500">
+    </div>
+
+    <div class="aboutvid">
+    <video id="video" width="500" height="400" controls autoplay muted poster="/public/assets/images/aboutvidpic.jpg">
+        <source src="/public/assets/images/aboutvid.mp4" type="video/mp4">
+    </video>
+        <br>
+        <button onclick="playPause()">Play or pause the video</button>
+    <script>
+        var myVideo=document.getElementById("video");
+        function playPause()
+        {
+        if (myVideo.paused)
+        myVideo.play();
+        else myVideo.pause();
+        }
+    </script>
+    </div>
+    <div class="text">
+        <p>Here are some more pictures I have taken around Belleville</p> 
+    </div>
+    <div class="p1">
+        <img src="/public/assets/images/dam.jpg" alt="Picture of dam in snowfall" width="1440" height="810">
+    </div>
+    <div class="p2">
+        <img src="/public/assets/images/tree.jpg" alt="Picture of forrest with ice and sun" width="1440" height="810">
+    </div>
+    <div class="footer">
+        <p>Spencer Strickland</p>
+        <p>spencer.strickland@ontariotechu.net</p>
+        <p>All pictures and videos are my own</p>
+    </div>
+</body>
+</html>
